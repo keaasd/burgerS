@@ -1,0 +1,61 @@
+.apples {
+    font-size: 24px;  
+    
+}
+
+.apple:hover {
+    color: rgb(218, 2, 2);
+}
+.macbook:hover {
+    color: blue;
+}
+.ipad-mini:hover {
+    color: rgb(15, 63, 0);
+}
+
+ 
+
+@media (min-width: 390px) {
+    .apples {
+        max-width: 390px;
+        color: rgb(12, 40, 199);
+    }
+    
+}
+@media (min-width: 499px) {
+    .apples {
+        max-width: 499px;
+        color: rgb(195, 144, 4); 
+    }
+}
+@media (min-width: 990px) {
+        .apples {
+            max-width: 990px;
+            color: black;
+            
+        }
+}
+@media (min-width: 1024px) {
+            .apples {
+                max-width: 1024px;
+                color: black;
+                
+            }
+}
+/* 
+li .apple :hover {
+    color: DarkRed;
+}
+.ipad-mini :hover {
+    color: DarkBlue;
+}
+
+ul li::before :first-child {
+    color: Green;
+}
+ul li:hover {
+    color: DarkRed;
+}
+ul li:nth-child(3) {
+    color: DarkBlue;
+} */
