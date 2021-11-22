@@ -46,7 +46,7 @@ a {
 }
 h1, h2, h3 {
     text-transform: uppercase;
-    line-height: 0.5px;
+    letter-spacing: 0.5px;
 }
 .aside h3 {
     line-height: 1.1;
