@@ -1,77 +1,147 @@
 body {
-    background-image: url(/www/img/fon.jpg);
+    background-image: url(../img/fon.jpg);
 }
+
 main {
     font-family: 'Roboto', sans-serif;
     
 }
+
 h1 {
     font-size: 46px;
     font-weight: 700;
 }
+
 .a-right {
     font-style: italic;
     
     color: black;
 }
+
 p {
     font-size: 25px;
 }
+
 .header {
     display: flex;
     /* text-align: center; */
     justify-content: center;
 }
+
 img {
     height: 250px;
     border-radius: 2%;
 }
+
 .right {
     margin-right: 100px;
     margin-left: 50px;
     /* justify-content: center; */
 }
+
 span {
     /* font-size: 20px; */
-    font-weight: 700;
-    
+    font-weight: 700;   
 }
+
 a {
     color: rgb(51, 51, 51);
     text-decoration: none;
     font-size: 34px;
 }
+
 section {
     margin: 30px auto;
     /* margin-top: 30px; */
 }
-.work, .work-end:before {
-    /* background-color: rgb(128, 128, 128); */
-}
 
-.work, .work-end {
+.item, .item-end {
+    display: flex;
     list-style-type: none; /* Убираем маркеры */
-    padding: 10px 50px;    
-    margin-bottom: 3px;
-    background-color: grey;
-    border: solid 4px rgb(37, 37, 37);
-    border-top: none;
-    border-right: none;
-    border-radius: 5px;
-
+    padding-top: 20px;
 }
+
 .container, section {
     background-color: rgb(238, 238, 238);
     max-width: 980px;
 	padding: 0 15px;
 	/* border: 3px solid red; */
 } 
+
 .container {
     margin: 0 auto;
 }
-.work-end {
+
+.works, .item-end {    
+    display: inline-block;
+    background-color: #E0FFFF;
+    border: solid 4px #B0E0E6;      
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 15px 50px; 
+    margin-bottom: 5px;
+    transition: color 1s cubic-bezier(1,0,1,.52);     
+}
+
+.item-end {
     margin-top: 50px;
 }
-works {
-    background-image: url(/www/img/Gold_Button_009.svg);
+
+.works:hover, .item-end:hover {
+    background-color: #B0E0E6;
+    border: solid 4px #E0FFFF;      
+    border-top: none;
+    border-left: none;
+}
+
+.task {
+    /* position: inherit; */
+    /* align-items: center; */
+    align-content: flex-end;
+    height: 65px;
+    margin-left: 20px;
+}
+
+/* .task:hover {
+    width: 50%;
+    height: auto;
+    } */
+
+    
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+    height: auto;
+}
+
+
+.popup_img {
+	position: fixed;
+	z-index:2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-height: 90%;
+}
+
+.popup_img {
+    pointer-events: none;
 }
