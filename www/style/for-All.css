@@ -61,6 +61,11 @@ section {
     padding-top: 20px;
 }
 
+.item::after {
+    display: inline-block;
+    background-color: green; 
+    background-image: url(../img/check-mark.svg);
+} 
 .container, section {
     background-color: rgb(238, 238, 238);
     max-width: 980px;
