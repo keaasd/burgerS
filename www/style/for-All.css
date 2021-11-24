@@ -81,12 +81,7 @@ section {
     border-radius: 5px;
     font-size: 30px;
     padding: 15px 50px; 
-<<<<<<< HEAD
-    margin-bottom: 5px;
-    transition: color 1s cubic-bezier(1,0,1,.52);     
-=======
-    margin-bottom: 5px;     
->>>>>>> ca758a620e886b2e36e8acc3f15fb5d3c2a2338c
+    margin-bottom: 5px;    
 }
 
 .item-end {
