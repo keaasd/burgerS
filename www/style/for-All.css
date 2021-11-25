@@ -151,7 +151,7 @@ section {
     pointer-events: none;
 }
 
-@media (min-width: 390px) {
+/* @media (min-width: 990px) {
     .header {
         max-width: 380px;
         text-align: center;
@@ -171,12 +171,12 @@ section {
         align-items: center;        
     } 
     
-}
-
+} */
+/* 
 @media (min-width: 499px) {
     color: #000;
-}
+} */
 
-@media (min-width: 990px) {
+/* @media (min-width: 990px) {
     color: #000;
-}
+} */
