@@ -31,6 +31,7 @@ p {
 img {
     height: 250px;
     border-radius: 2%;
+    display: inline-block;
 }
 
 .right {
@@ -148,4 +149,34 @@ section {
 
 .popup_img {
     pointer-events: none;
+}
+
+@media (min-width: 390px) {
+    .header {
+        max-width: 380px;
+        text-align: center;
+        flex-wrap: wrap;
+        position: relative;        
+    }
+
+    img {
+        width: 300px;
+        height: 100%;
+        /* position: absolute; */
+        
+    }
+    .container, section {
+        max-width: 390px;
+        padding: 0 15px;
+        align-items: center;        
+    } 
+    
+}
+
+@media (min-width: 499px) {
+    color: #000;
+}
+
+@media (min-width: 990px) {
+    color: #000;
 }
